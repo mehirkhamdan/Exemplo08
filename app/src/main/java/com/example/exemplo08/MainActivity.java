@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         Fotos i = (Fotos)parent.getAdapter().getItem(position);
-        Toast.makeText(this,"Icon: " + i.nome, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"Foto: " + i.nome, Toast.LENGTH_SHORT).show();
     }
 
     @Override
